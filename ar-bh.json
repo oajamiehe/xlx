@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "debug": "على",
+    "window": {
+      "title": "عينة Konfabulator القطعة",
+      "name": "النافذة الرئيسية",
+      "width": "500",
+      "height": "500"
+    },
+    "image": {
+      "src": "Images/Sun.png",
+      "name": "Sun1",
+      "hOffset": "250",
+      "vOffset": "250",
+      "alignment": "مركز"
+    },
+    "text": {
+      "data": "انقر هنا",
+      "size": "36",
+      "style": "جريء",
+      "name": "Text1",
+      "hOffset": "250",
+      "vOffset": "100",
+      "alignment": "مركز",
+      "onMouseUp": "Sun1.opacity = (sun1.opacity / 100) * 90؛"
+    }
+  }
+}
